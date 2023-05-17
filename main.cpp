@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <iomanip>
 //1. Creating make file
 //2. Swap the value in the array using pointers** to help
  //3. Take input from argv
@@ -27,8 +28,9 @@ int i,n,*a;
 
   pa-=n/2;
      // Using p within your program 
+  cout<<"Reverse: ";
   for(i=0;i<n;i++) {
- 		   cout<< "a["<< n-i-1 << "]="<<pa[i+1]<<endl; //p is the location where p points to
+ 		   cout<<setw(3)<<pa[i+1]<<" "; //p is the location where p points to
  //     p++;  
  }
 

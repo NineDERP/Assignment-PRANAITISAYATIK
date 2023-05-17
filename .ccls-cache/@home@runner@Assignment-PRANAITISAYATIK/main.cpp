@@ -28,7 +28,7 @@ int i,n,*a;
   pa-=n/2;
      // Using p within your program 
   for(i=0;i<n;i++) {
- 		   cout<<pa[i+1]<<" "; //p is the location where p points to
+ 		   cout<< "a["<< n-i-1 << "]="<<pa[i+1]<<endl; //p is the location where p points to
  //     p++;  
  }
 
